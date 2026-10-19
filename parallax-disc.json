@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T02:58:02.725064624Z",
+  "updatedAt": "2026-10-19T03:33:06.57767245Z",
   "nodes": [
     {
       "key": "1/109.62.190.128/32110",
@@ -10,10 +10,90 @@
       "nodeId": "143bfda9c5564f9740685ac9c936c3012f98cf5f64147545d8ad77755e5a50ad7123a67274c020b62e99613f9a34235d4594b6d9be703d2479c8affc19530b19",
       "firstSeen": "2026-10-19T02:43:30.006250096Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:30.006250096Z",
+      "lastAttempt": "2026-10-19T03:18:29.800492204Z",
+      "failCount": 3,
+      "failStreak": 3,
+      "lastError": "dial: dial tcp 109.62.190.128:32110: i/o timeout",
+      "stat2h": {
+        "weight": 0.34983361899433896,
+        "count": 2.6268784309061872,
+        "reliability": 0
+      },
+      "stat8h": {
+        "weight": 0.10204178641375784,
+        "count": 2.898187727316676,
+        "reliability": 0
+      },
+      "stat1d": {
+        "weight": 0.03524128789002438,
+        "count": 2.965378497698068,
+        "reliability": 0
+      },
+      "stat1w": {
+        "weight": 0.00511220911967504,
+        "count": 2.995011302491335,
+        "reliability": 0
+      },
+      "stat1m": {
+        "weight": 0.0011951934590957681,
+        "count": 2.99883468634825,
+        "reliability": 0
+      }
+    },
+    {
+      "key": "1/110.78.164.25/32110",
+      "network": 1,
+      "ip": "110.78.164.25",
+      "tcpPort": 32110,
+      "keyType": 0,
+      "firstSeen": "2026-10-13T07:35:51.810937788Z",
+      "lastSuccess": "2026-10-19T03:18:32.98512774Z",
+      "lastAttempt": "2026-10-19T03:18:28.491131924Z",
+      "successCount": 479,
+      "capabilities": [
+        "parallax/66",
+        "parallax-disc/1",
+        "parallax-snap/1"
+      ],
+      "stat2h": {
+        "weight": 0.9999999999999997,
+        "count": 7.419471381258092,
+        "reliability": 0.9999999999999997
+      },
+      "stat8h": {
+        "weight": 0.9999999748522108,
+        "count": 27.941311182214584,
+        "reliability": 0.9999999748522108
+      },
+      "stat1d": {
+        "weight": 0.997070231726833,
+        "count": 82.44014403282624,
+        "reliability": 0.997070231726833
+      },
+      "stat1w": {
+        "weight": 0.5653706615614243,
+        "count": 325.31182492968645,
+        "reliability": 0.5653706615614243
+      },
+      "stat1m": {
+        "weight": 0.176694324874864,
+        "count": 435.40732219422796,
+        "reliability": 0.176694324874864
+      }
+    },
+    {
+      "key": "1/149.202.91.156/32110",
+      "network": 1,
+      "ip": "149.202.91.156",
+      "tcpPort": 32110,
+      "keyType": 1,
+      "nodeId": "ed6c8fffcf3963781c4af816e26804b46f2c6e2c39998521c0c14f9ea9ae94feab2495693f0f5ca74f6a21bb07b6d301f3937969ca0571b866a1923612bf4edd",
+      "firstSeen": "2026-10-19T03:18:38.492270965Z",
+      "lastSuccess": "0001-01-01T00:00:00Z",
+      "lastAttempt": "2026-10-19T03:18:38.492270965Z",
       "failCount": 1,
       "failStreak": 1,
-      "lastError": "dial: dial tcp 109.62.190.128:32110: i/o timeout",
+      "lastError": "dial: dial tcp 149.202.91.156:32110: i/o timeout",
       "stat2h": {
         "weight": 0.1296752741666094,
         "count": 1,
@@ -41,121 +121,41 @@
       }
     },
     {
-      "key": "1/110.78.164.25/32110",
-      "network": 1,
-      "ip": "110.78.164.25",
-      "tcpPort": 32110,
-      "keyType": 0,
-      "firstSeen": "2026-10-13T07:35:51.810937788Z",
-      "lastSuccess": "2026-10-19T02:43:27.438980326Z",
-      "lastAttempt": "2026-10-19T02:43:24.652948578Z",
-      "successCount": 477,
-      "capabilities": [
-        "parallax/66",
-        "parallax-disc/1",
-        "parallax-snap/1"
-      ],
-      "stat2h": {
-        "weight": 0.9999999999999997,
-        "count": 7.41966715129137,
-        "reliability": 0.9999999999999997
-      },
-      "stat8h": {
-        "weight": 0.9999999729464042,
-        "count": 27.941148900560627,
-        "reliability": 0.9999999729464042
-      },
-      "stat1d": {
-        "weight": 0.9969980162767773,
-        "count": 82.43377817783632,
-        "reliability": 0.9969980162767773
-      },
-      "stat1w": {
-        "weight": 0.5638561410137517,
-        "count": 324.4399742364983,
-        "reliability": 0.5638561410137517
-      },
-      "stat1m": {
-        "weight": 0.17602580440796944,
-        "count": 433.75960290715693,
-        "reliability": 0.17602580440796944
-      }
-    },
-    {
-      "key": "1/149.202.91.156/32110",
-      "network": 1,
-      "ip": "149.202.91.156",
-      "tcpPort": 32110,
-      "keyType": 1,
-      "nodeId": "ed6c8fffcf3963781c4af816e26804b46f2c6e2c39998521c0c14f9ea9ae94feab2495693f0f5ca74f6a21bb07b6d301f3937969ca0571b866a1923612bf4edd",
-      "firstSeen": "2026-10-19T02:08:25.152182581Z",
-      "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:25.599674572Z",
-      "failCount": 3,
-      "failStreak": 3,
-      "lastError": "dial: dial tcp 149.202.91.156:32110: i/o timeout",
-      "stat2h": {
-        "weight": 0.3498926053617851,
-        "count": 2.6270662523975625,
-        "reliability": 0
-      },
-      "stat8h": {
-        "weight": 0.10206215392922306,
-        "count": 2.89823697091369,
-        "reliability": 0
-      },
-      "stat1d": {
-        "weight": 0.03524858217397476,
-        "count": 2.9653950670642315,
-        "reliability": 0
-      },
-      "stat1w": {
-        "weight": 0.00511328370628541,
-        "count": 2.9950136787413246,
-        "reliability": 0
-      },
-      "stat1m": {
-        "weight": 0.001195445183262855,
-        "count": 2.99883524107783,
-        "reliability": 0
-      }
-    },
-    {
       "key": "1/15.235.225.214/32110",
       "network": 1,
       "ip": "15.235.225.214",
       "tcpPort": 32110,
       "keyType": 1,
       "nodeId": "6b6590e3fe3a80c9d6c3314741407b1e34ef8889e3432c2f7eebef5c98245db3630d9a2db7331889fff505e0ac1163187acad4ecae64f95ab1d0365c1075370c",
-      "firstSeen": "2026-10-19T02:08:22.034996422Z",
+      "firstSeen": "2026-10-19T03:18:32.985220861Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.652668961Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:32.985220861Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "dial: dial tcp 15.235.225.214:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.350088527280904,
-        "count": 2.6265492074415984,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10212981413157067,
-        "count": 2.8980865901718387,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.035272814332139815,
-        "count": 2.9653431992816937,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.005116853613567999,
-        "count": 2.995006159419151,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011962814430265078,
-        "count": 2.998833483268966,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -167,10 +167,10 @@
       "keyType": 0,
       "firstSeen": "2026-10-18T16:47:23.911617474Z",
       "lastSuccess": "2026-10-18T22:37:56.856231239Z",
-      "lastAttempt": "2026-10-19T02:43:26.108165093Z",
+      "lastAttempt": "2026-10-19T03:18:28.491138283Z",
       "successCount": 21,
-      "failCount": 14,
-      "failStreak": 14,
+      "failCount": 16,
+      "failStreak": 16,
       "lastError": "dial: dial tcp 152.243.214.67:32110: i/o timeout",
       "capabilities": [
         "parallax/66",
@@ -178,29 +178,29 @@
         "parallax-snap/1"
       ],
       "stat2h": {
-        "weight": 0.9939388797218969,
-        "count": 7.373570151627019,
-        "reliability": 0.1232167974575833
+        "weight": 0.9954737353797017,
+        "count": 7.386167291366185,
+        "reliability": 0.09201464504401043
       },
       "stat8h": {
-        "weight": 0.7209781424909966,
-        "count": 20.159695792439283,
-        "reliability": 0.32060501417491444
+        "weight": 0.7406208963170786,
+        "count": 20.708974037176095,
+        "reliability": 0.29803486348827096
       },
       "stat1d": {
-        "weight": 0.34654942890316487,
-        "count": 28.69229809781487,
-        "reliability": 0.18980721983284007
+        "weight": 0.36225803577232113,
+        "count": 29.991935794875573,
+        "reliability": 0.18524435443924664
       },
       "stat1w": {
-        "weight": 0.05897357234164295,
-        "count": 33.98894340067482,
-        "reliability": 0.03491310154362073
+        "weight": 0.06223905399437166,
+        "count": 35.86947411952563,
+        "reliability": 0.03479194863103543
       },
       "stat1m": {
-        "weight": 0.014082842033632897,
-        "count": 34.76046943555682,
-        "reliability": 0.008416206130028492
+        "weight": 0.014882199693477316,
+        "count": 36.731930844177604,
+        "reliability": 0.008409382474731992
       }
     },
     {
@@ -211,10 +211,49 @@
       "keyType": 0,
       "firstSeen": "2026-10-19T02:43:27.990045252Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:27.990045252Z",
+      "lastAttempt": "2026-10-19T03:18:28.491146644Z",
+      "failCount": 3,
+      "failStreak": 3,
+      "lastError": "dial: dial tcp 153.66.121.106:32110: i/o timeout",
+      "stat2h": {
+        "weight": 0.34989744588171073,
+        "count": 2.6267696002680676,
+        "reliability": 0
+      },
+      "stat8h": {
+        "weight": 0.10206382538312744,
+        "count": 2.8981551418791334,
+        "reliability": 0
+      },
+      "stat1d": {
+        "weight": 0.03524918078204532,
+        "count": 2.965367186767997,
+        "reliability": 0
+      },
+      "stat1w": {
+        "weight": 0.005113371892936389,
+        "count": 2.995009658263477,
+        "reliability": 0
+      },
+      "stat1m": {
+        "weight": 0.001195465841179928,
+        "count": 2.9988343018397963,
+        "reliability": 0
+      }
+    },
+    {
+      "key": "1/164.132.169.5/32110",
+      "network": 1,
+      "ip": "164.132.169.5",
+      "tcpPort": 32110,
+      "keyType": 1,
+      "nodeId": "742ced9bd1848b19f1e7c6c753a3f78d9ed3429a870b0a4ba2817d8b5b867aed7c421206aabda4ea4430c4b63262bc173e4a079e69ab29f4509d0b92987baab9",
+      "firstSeen": "2026-10-19T03:18:31.814168702Z",
+      "lastSuccess": "0001-01-01T00:00:00Z",
+      "lastAttempt": "2026-10-19T03:18:31.814168702Z",
       "failCount": 1,
       "failStreak": 1,
-      "lastError": "dial: dial tcp 153.66.121.106:32110: i/o timeout",
+      "lastError": "dial: dial tcp 164.132.169.5:32110: i/o timeout",
       "stat2h": {
         "weight": 0.1296752741666094,
         "count": 1,
@@ -242,54 +281,15 @@
       }
     },
     {
-      "key": "1/164.132.169.5/32110",
-      "network": 1,
-      "ip": "164.132.169.5",
-      "tcpPort": 32110,
-      "keyType": 1,
-      "nodeId": "742ced9bd1848b19f1e7c6c753a3f78d9ed3429a870b0a4ba2817d8b5b867aed7c421206aabda4ea4430c4b63262bc173e4a079e69ab29f4509d0b92987baab9",
-      "firstSeen": "2026-10-19T02:08:21.95424407Z",
-      "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:25.310166102Z",
-      "failCount": 3,
-      "failStreak": 3,
-      "lastError": "dial: dial tcp 164.132.169.5:32110: i/o timeout",
-      "stat2h": {
-        "weight": 0.3501551623061512,
-        "count": 2.626488329468996,
-        "reliability": 0
-      },
-      "stat8h": {
-        "weight": 0.10215282953655762,
-        "count": 2.8980670782111226,
-        "reliability": 0
-      },
-      "stat1d": {
-        "weight": 0.035281057460136774,
-        "count": 2.9653363301058553,
-        "reliability": 0
-      },
-      "stat1w": {
-        "weight": 0.005118068017460948,
-        "count": 2.9950051549226413,
-        "reliability": 0
-      },
-      "stat1m": {
-        "weight": 0.001196565920718635,
-        "count": 2.99883324818662,
-        "reliability": 0
-      }
-    },
-    {
       "key": "1/168.231.74.175/32110",
       "network": 1,
       "ip": "168.231.74.175",
       "tcpPort": 32110,
       "keyType": 0,
       "firstSeen": "2026-06-04T00:38:02.867201997Z",
-      "lastSuccess": "2026-10-19T02:43:26.108052428Z",
-      "lastAttempt": "2026-10-19T02:43:24.652485172Z",
-      "successCount": 9523,
+      "lastSuccess": "2026-10-19T03:18:31.138974677Z",
+      "lastAttempt": "2026-10-19T03:18:28.49087268Z",
+      "successCount": 9525,
       "failCount": 2157,
       "capabilities": [
         "parallax/66",
@@ -298,28 +298,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.419406429831883,
-        "reliability": 0.999999928773727
+        "count": 7.420022413576707,
+        "reliability": 0.9999999468210853
       },
       "stat8h": {
         "weight": 0.9999999999999988,
-        "count": 27.941383564549767,
-        "reliability": 0.9968498729172283
+        "count": 27.94173432443479,
+        "reliability": 0.997071785499603
       },
       "stat1d": {
         "weight": 0.9999999999999961,
-        "count": 82.68198843122049,
-        "reliability": 0.9845559026158371
+        "count": 82.68245304033474,
+        "reliability": 0.9849274244670823
       },
       "stat1w": {
-        "weight": 0.9999136730042819,
-        "count": 575.3093730195549,
-        "reliability": 0.9929281158126604
+        "weight": 0.9999139727769804,
+        "count": 575.3100832788145,
+        "reliability": 0.992952673111198
       },
       "stat1m": {
-        "weight": 0.8873405708415079,
-        "count": 2186.732491728509,
-        "reliability": 0.8854519620189181
+        "weight": 0.8874319755746809,
+        "count": 2186.9579620381332,
+        "reliability": 0.8855448990498028
       }
     },
     {
@@ -329,9 +329,9 @@
       "tcpPort": 31303,
       "keyType": 0,
       "firstSeen": "2026-10-14T11:39:41.535421923Z",
-      "lastSuccess": "2026-10-19T02:43:25.599556655Z",
-      "lastAttempt": "2026-10-19T02:43:24.652702512Z",
-      "successCount": 379,
+      "lastSuccess": "2026-10-19T03:18:31.343938019Z",
+      "lastAttempt": "2026-10-19T03:18:29.871588932Z",
+      "successCount": 381,
       "failCount": 2,
       "capabilities": [
         "parallax/66",
@@ -340,28 +340,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.419602621930881,
-        "reliability": 0.9999999999998608
+        "count": 7.418679419586381,
+        "reliability": 0.9999999999998961
       },
       "stat8h": {
-        "weight": 0.9999990969332357,
-        "count": 27.941184778920302,
-        "reliability": 0.9999665770952703
+        "weight": 0.9999991605905502,
+        "count": 27.94018701320197,
+        "reliability": 0.9999689330809381
       },
       "stat1d": {
-        "weight": 0.9903341521849373,
-        "count": 81.88336113889105,
-        "reliability": 0.9891549325238872
+        "weight": 0.9905668236961251,
+        "count": 81.90172057371676,
+        "reliability": 0.9894159896279179
       },
       "stat1w": {
-        "weight": 0.48456116570129887,
-        "count": 278.8292734424935,
-        "reliability": 0.48261858347405906
+        "weight": 0.4863522126624271,
+        "count": 279.85887841487005,
+        "reliability": 0.4844163805202863
       },
       "stat1m": {
-        "weight": 0.14327521387331188,
-        "count": 353.0794726877252,
-        "reliability": 0.14261771863892705
+        "weight": 0.1439707620833804,
+        "count": 354.79246380123016,
+        "reliability": 0.14331380064892854
       }
     },
     {
@@ -371,35 +371,35 @@
       "tcpPort": 32110,
       "keyType": 1,
       "nodeId": "b59fff0503aee12b20a015784914897f9f2fbb3ee2a456fc87990d2e48771438dd224c50424c37cbd46c000677404a34c2addc57dbb9de76c00232a6eec13451",
-      "firstSeen": "2026-10-19T02:08:28.426427784Z",
+      "firstSeen": "2026-10-19T03:18:31.18764351Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.652773372Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:31.18764351Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "dial: dial tcp 178.213.33.73:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.3495113549341245,
-        "count": 2.6272122962809488,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10193053570330152,
-        "count": 2.8982928874703733,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.03520144726108757,
-        "count": 2.965415389650444,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.005106339960989295,
-        "count": 2.995016689387265,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011938186000441837,
-        "count": 2.9988359468094172,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -412,33 +412,33 @@
       "nodeId": "b1cffed11d23be2e8cbd91a77957a9183f0851425af44890823fd2b0dacda85040305a5e91982e649a67256d92b7e27019d315c55df1c75ba378c393d97d54d2",
       "firstSeen": "2026-10-19T02:43:28.942826604Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:28.942826604Z",
-      "failCount": 1,
-      "failStreak": 1,
+      "lastAttempt": "2026-10-19T03:18:28.491133327Z",
+      "failCount": 3,
+      "failStreak": 3,
       "lastError": "dial: dial tcp 24.159.241.146:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.1296752741666094,
-        "count": 1,
+        "weight": 0.34981141043326347,
+        "count": 2.6268684307911423,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.034126322758950334,
-        "count": 1,
+        "weight": 0.10203411833641308,
+        "count": 2.898185891960254,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.011507352141687077,
-        "count": 1,
+        "weight": 0.03523854172535368,
+        "count": 2.965377947437566,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.0016520729759895714,
-        "count": 1,
+        "weight": 0.005111804559248831,
+        "count": 2.995011227867901,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.00038572805693293244,
-        "count": 1,
+        "weight": 0.0011950986900216441,
+        "count": 2.998834669057199,
         "reliability": 0
       }
     },
@@ -450,33 +450,33 @@
       "keyType": 0,
       "firstSeen": "2026-10-19T02:43:34.653994603Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:34.653994603Z",
-      "failCount": 1,
-      "failStreak": 1,
+      "lastAttempt": "2026-10-19T03:18:28.491128806Z",
+      "failCount": 3,
+      "failStreak": 3,
       "lastError": "dial: dial tcp 45.163.154.84:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.1296752741666094,
-        "count": 1,
+        "weight": 0.34929546427499497,
+        "count": 2.6274612572846063,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.034126322758950334,
-        "count": 1,
+        "weight": 0.10185602991289561,
+        "count": 2.898370274324193,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.011507352141687077,
-        "count": 1,
+        "weight": 0.03517476740544724,
+        "count": 2.965442464755419,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.0016520729759895714,
-        "count": 1,
+        "weight": 0.005102409709794424,
+        "count": 2.995020638347799,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.00038572805693293244,
-        "count": 1,
+        "weight": 0.0011928979363990185,
+        "count": 2.9988368706796136,
         "reliability": 0
       }
     },
@@ -488,10 +488,10 @@
       "keyType": 0,
       "firstSeen": "2026-10-13T01:09:45.692328358Z",
       "lastSuccess": "2026-10-18T03:05:23.761135641Z",
-      "lastAttempt": "2026-10-19T02:43:24.652860413Z",
+      "lastAttempt": "2026-10-19T03:18:28.49108325Z",
       "successCount": 41,
-      "failCount": 458,
-      "failStreak": 81,
+      "failCount": 460,
+      "failStreak": 83,
       "lastError": "dial: dial tcp 45.236.49.58:32110: i/o timeout",
       "capabilities": [
         "parallax/66",
@@ -500,28 +500,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.4201436336412305,
-        "reliability": 0.0000011191433690723494
+        "count": 7.419827067825766,
+        "reliability": 8.355741300132592e-7
       },
       "stat8h": {
-        "weight": 0.9999999878971518,
-        "count": 27.94138933092008,
-        "reliability": 0.003452838792694744
+        "weight": 0.9999999887497442,
+        "count": 27.9415346303363,
+        "reliability": 0.003209601521611966
       },
       "stat1d": {
-        "weight": 0.9977040494532966,
-        "count": 82.49214633953635,
-        "reliability": 0.035884086494306126
+        "weight": 0.9977592806338751,
+        "count": 82.49710805529338,
+        "reliability": 0.03502086212568587
       },
       "stat1w": {
-        "weight": 0.5802461897607014,
-        "count": 333.86207427955173,
-        "reliability": 0.04603832468209234
+        "weight": 0.5817037954781453,
+        "count": 334.7012064705742,
+        "reliability": 0.045878455435783644
       },
       "stat1m": {
-        "weight": 0.18335729986995286,
-        "count": 451.81001066252895,
-        "reliability": 0.015457121260391072
+        "weight": 0.18401987203828485,
+        "count": 453.4430849851802,
+        "reliability": 0.015444580331110696
       }
     },
     {
@@ -533,10 +533,49 @@
       "nodeId": "226402d41976c499f08b8daeb9d87e91f44fe5d330733691ab1e845b4908e4706ac3654d758baed298d84fcdd0966c4de5f3e5957e01e9d759f2d34158f4bf86",
       "firstSeen": "2026-10-19T02:43:27.439088446Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:27.439088446Z",
+      "lastAttempt": "2026-10-19T03:18:28.490930018Z",
+      "failCount": 3,
+      "failStreak": 3,
+      "lastError": "dial: dial tcp 45.71.175.4:32110: i/o timeout",
+      "stat2h": {
+        "weight": 0.34994717142329,
+        "count": 2.627538843291133,
+        "reliability": 0
+      },
+      "stat8h": {
+        "weight": 0.10208099638294897,
+        "count": 2.898364704316528,
+        "reliability": 0
+      },
+      "stat1d": {
+        "weight": 0.035255330380872835,
+        "count": 2.9654383742958093,
+        "reliability": 0
+      },
+      "stat1w": {
+        "weight": 0.005114277851572592,
+        "count": 2.9950199104329993,
+        "reliability": 0
+      },
+      "stat1m": {
+        "weight": 0.00119567806406677,
+        "count": 2.9988366964820377,
+        "reliability": 0
+      }
+    },
+    {
+      "key": "1/46.13.67.249/32110",
+      "network": 1,
+      "ip": "46.13.67.249",
+      "tcpPort": 32110,
+      "keyType": 1,
+      "nodeId": "0487551be4f670101d87440aab3027e604915ec9c3232353046397a5d3f027ac28376ddb8a279fed14ab1226a34f81d5def56139f12ea3c032ea3c6591775d99",
+      "firstSeen": "2026-10-19T03:18:38.492116641Z",
+      "lastSuccess": "0001-01-01T00:00:00Z",
+      "lastAttempt": "2026-10-19T03:18:38.492116641Z",
       "failCount": 1,
       "failStreak": 1,
-      "lastError": "dial: dial tcp 45.71.175.4:32110: i/o timeout",
+      "lastError": "dial: dial tcp 46.13.67.249:32110: connect: connection refused",
       "stat2h": {
         "weight": 0.1296752741666094,
         "count": 1,
@@ -564,80 +603,41 @@
       }
     },
     {
-      "key": "1/46.13.67.249/32110",
-      "network": 1,
-      "ip": "46.13.67.249",
-      "tcpPort": 32110,
-      "keyType": 1,
-      "nodeId": "0487551be4f670101d87440aab3027e604915ec9c3232353046397a5d3f027ac28376ddb8a279fed14ab1226a34f81d5def56139f12ea3c032ea3c6591775d99",
-      "firstSeen": "2026-10-19T02:08:24.962313278Z",
-      "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.653027348Z",
-      "failCount": 3,
-      "failStreak": 3,
-      "lastError": "dial: dial tcp 46.13.67.249:32110: connect: connection refused",
-      "stat2h": {
-        "weight": 0.34982427025426605,
-        "count": 2.628075705331398,
-        "reliability": 0
-      },
-      "stat8h": {
-        "weight": 0.10203855849667569,
-        "count": 2.8985174297947434,
-        "reliability": 0
-      },
-      "stat1d": {
-        "weight": 0.03524013187580303,
-        "count": 2.9654907875348364,
-        "reliability": 0
-      },
-      "stat1w": {
-        "weight": 0.005112038817456267,
-        "count": 2.9950274924624307,
-        "reliability": 0
-      },
-      "stat1m": {
-        "weight": 0.0011951535654630945,
-        "count": 2.998838468461096,
-        "reliability": 0
-      }
-    },
-    {
       "key": "1/46.4.176.163/32009",
       "network": 1,
       "ip": "46.4.176.163",
       "tcpPort": 32009,
       "keyType": 1,
       "nodeId": "8bd428c12562469202159e8459c30f46e01f53bf7dcd6cbab8515dddc678b4598ac7086b9f0d351c8f3c6ecc22945488922a47597b0780678913f2d69c586bee",
-      "firstSeen": "2026-10-19T02:08:23.075415618Z",
+      "firstSeen": "2026-10-19T03:18:38.492084042Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.6514971Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:38.492084042Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "v2 handshake: bip324handshake: read peer pub: EOF",
       "stat2h": {
-        "weight": 0.34999450076822536,
-        "count": 2.6266573615798703,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10209734085402691,
-        "count": 2.8981202432745716,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.03526118404063576,
-        "count": 2.9653549760242117,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.0051151402170768814,
-        "count": 2.9950078772453783,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011958800753000681,
-        "count": 2.9988338851640317,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -650,10 +650,91 @@
       "nodeId": "d09c3c0af7fad4d477e1410ee8e668cb85b9821064fc042b942e66f82cedb3ed6948d4262b4f0b60cf2aece1f17bac37da4aff7a48ecf7e08a91175d54c5cf44",
       "firstSeen": "2026-10-19T02:43:31.31411449Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:31.31411449Z",
+      "lastAttempt": "2026-10-19T03:18:28.491130791Z",
+      "failCount": 3,
+      "failStreak": 3,
+      "lastError": "dial: dial tcp 47.203.238.73:32110: i/o timeout",
+      "stat2h": {
+        "weight": 0.34959723821846067,
+        "count": 2.6271144608301236,
+        "reliability": 0
+      },
+      "stat8h": {
+        "weight": 0.10196017994642682,
+        "count": 2.898262428142023,
+        "reliability": 0
+      },
+      "stat1d": {
+        "weight": 0.035212063009163276,
+        "count": 2.9654047294273957,
+        "reliability": 0
+      },
+      "stat1w": {
+        "weight": 0.005107903809322794,
+        "count": 2.9950151343558034,
+        "reliability": 0
+      },
+      "stat1m": {
+        "weight": 0.001194184933207962,
+        "count": 2.998835582999112,
+        "reliability": 0
+      }
+    },
+    {
+      "key": "1/5.181.190.3/32110",
+      "network": 1,
+      "ip": "5.181.190.3",
+      "tcpPort": 32110,
+      "keyType": 0,
+      "firstSeen": "2026-10-14T21:00:46.802094279Z",
+      "lastSuccess": "2026-10-19T03:18:29.871494416Z",
+      "lastAttempt": "2026-10-19T03:18:28.491228031Z",
+      "successCount": 350,
+      "failCount": 1,
+      "capabilities": [
+        "parallax/66",
+        "parallax-disc/1",
+        "parallax-snap/1"
+      ],
+      "stat2h": {
+        "weight": 0.9999999999999997,
+        "count": 7.419465442417534,
+        "reliability": 0.9999999999999997
+      },
+      "stat8h": {
+        "weight": 0.9999972981840267,
+        "count": 27.94101355114746,
+        "reliability": 0.999997202723258
+      },
+      "stat1d": {
+        "weight": 0.9860721123466895,
+        "count": 81.53149870702966,
+        "reliability": 0.9859099734494869
+      },
+      "stat1w": {
+        "weight": 0.45694883376033313,
+        "count": 262.941584192506,
+        "reliability": 0.45605018897724753
+      },
+      "stat1m": {
+        "weight": 0.1327795538971125,
+        "count": 327.2152932108797,
+        "reliability": 0.13244491355933746
+      }
+    },
+    {
+      "key": "1/51.222.240.201/32110",
+      "network": 1,
+      "ip": "51.222.240.201",
+      "tcpPort": 32110,
+      "keyType": 1,
+      "nodeId": "d8ea9bfc314921a588c290ef446a785558808a94dc04060f4ca243157cd3fe7b6be4a37f7a88c8fd30f338110a5f06f7b6fd07c8b999926c676ff918ce096525",
+      "firstSeen": "2026-10-19T03:18:30.807786023Z",
+      "lastSuccess": "0001-01-01T00:00:00Z",
+      "lastAttempt": "2026-10-19T03:18:30.807786023Z",
       "failCount": 1,
       "failStreak": 1,
-      "lastError": "dial: dial tcp 47.203.238.73:32110: i/o timeout",
+      "lastError": "dial: dial tcp 51.222.240.201:32110: i/o timeout",
       "stat2h": {
         "weight": 0.1296752741666094,
         "count": 1,
@@ -681,96 +762,15 @@
       }
     },
     {
-      "key": "1/5.181.190.3/32110",
-      "network": 1,
-      "ip": "5.181.190.3",
-      "tcpPort": 32110,
-      "keyType": 0,
-      "firstSeen": "2026-10-14T21:00:46.802094279Z",
-      "lastSuccess": "2026-10-19T02:43:31.314030321Z",
-      "lastAttempt": "2026-10-19T02:43:24.652989177Z",
-      "successCount": 348,
-      "failCount": 1,
-      "capabilities": [
-        "parallax/66",
-        "parallax-disc/1",
-        "parallax-snap/1"
-      ],
-      "stat2h": {
-        "weight": 0.9999999999999997,
-        "count": 7.419659212971234,
-        "reliability": 0.9999999999999997
-      },
-      "stat8h": {
-        "weight": 0.9999970934289052,
-        "count": 27.940828758512357,
-        "reliability": 0.9999969907337128
-      },
-      "stat1d": {
-        "weight": 0.9857288057748697,
-        "count": 81.50273582941372,
-        "reliability": 0.9855626703384687
-      },
-      "stat1w": {
-        "weight": 0.45505650367876577,
-        "count": 261.85239658131616,
-        "reliability": 0.4541547274549221
-      },
-      "stat1m": {
-        "weight": 0.1320753748171452,
-        "count": 325.4797224948031,
-        "reliability": 0.13174046275292942
-      }
-    },
-    {
-      "key": "1/51.222.240.201/32110",
-      "network": 1,
-      "ip": "51.222.240.201",
-      "tcpPort": 32110,
-      "keyType": 1,
-      "nodeId": "d8ea9bfc314921a588c290ef446a785558808a94dc04060f4ca243157cd3fe7b6be4a37f7a88c8fd30f338110a5f06f7b6fd07c8b999926c676ff918ce096525",
-      "firstSeen": "2026-10-19T02:08:22.991023383Z",
-      "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.652906986Z",
-      "failCount": 3,
-      "failStreak": 3,
-      "lastError": "dial: dial tcp 51.222.240.201:32110: i/o timeout",
-      "stat2h": {
-        "weight": 0.3500022468086257,
-        "count": 2.626648277918903,
-        "reliability": 0
-      },
-      "stat8h": {
-        "weight": 0.10210001591653153,
-        "count": 2.8981174232003144,
-        "reliability": 0
-      },
-      "stat1d": {
-        "weight": 0.03526214210261497,
-        "count": 2.9653539896139485,
-        "reliability": 0
-      },
-      "stat1w": {
-        "weight": 0.005115281359906411,
-        "count": 2.995007733389958,
-        "reliability": 0
-      },
-      "stat1m": {
-        "weight": 0.0011959131383666893,
-        "count": 2.998833851509091,
-        "reliability": 0
-      }
-    },
-    {
       "key": "1/54.94.191.104/32110",
       "network": 1,
       "ip": "54.94.191.104",
       "tcpPort": 32110,
       "keyType": 0,
       "firstSeen": "2026-10-12T23:59:30.337177632Z",
-      "lastSuccess": "2026-10-19T02:43:25.310050737Z",
-      "lastAttempt": "2026-10-19T02:43:24.65253684Z",
-      "successCount": 503,
+      "lastSuccess": "2026-10-19T03:18:30.80767165Z",
+      "lastAttempt": "2026-10-19T03:18:28.491036095Z",
+      "successCount": 505,
       "capabilities": [
         "parallax/66",
         "parallax-disc/1",
@@ -778,28 +778,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.418595990151909,
+        "count": 7.41989420767118,
         "reliability": 0.9999999999999997
       },
       "stat8h": {
-        "weight": 0.9999999895450629,
-        "count": 27.940802319385167,
-        "reliability": 0.9999999895450629
+        "weight": 0.9999999902815672,
+        "count": 27.941325077438353,
+        "reliability": 0.9999999902815672
       },
       "stat1d": {
-        "weight": 0.9978133775120295,
-        "count": 82.5010681487913,
-        "reliability": 0.9978133775120295
+        "weight": 0.9978659787134535,
+        "count": 82.50592950858008,
+        "reliability": 0.9978659787134535
       },
       "stat1w": {
-        "weight": 0.5831616317208625,
-        "count": 335.5367549907542,
-        "reliability": 0.5831616317208625
+        "weight": 0.5846091136822643,
+        "count": 336.3700881679079,
+        "reliability": 0.5846091136822643
       },
       "stat1m": {
-        "weight": 0.18468432187952902,
-        "count": 455.0746105814163,
-        "reliability": 0.18468432187952902
+        "weight": 0.18534581747312812,
+        "count": 456.7050400227782,
+        "reliability": 0.18534581747312812
       }
     },
     {
@@ -809,35 +809,35 @@
       "tcpPort": 32110,
       "keyType": 1,
       "nodeId": "7fcacf55ab8ffb8bd7bc722ba2336b6a4b304a2fc76fa65aadab4e17d196261793287f2cac80d10a25a351f06a038e73cca1170b2007af076bf82eb33e85d2f3",
-      "firstSeen": "2026-10-19T02:08:25.785730684Z",
+      "firstSeen": "2026-10-19T03:18:31.344025815Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:25.37731281Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:31.344025815Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "dial: dial tcp 69.62.94.166:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.34981531836369173,
-        "count": 2.6269218247455646,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10203546763573884,
-        "count": 2.898200424390397,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.03523902494810702,
-        "count": 2.965382882904072,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.0051118757467521125,
-        "count": 2.9950119385832816,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011951153658319204,
-        "count": 2.998834835059783,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -848,9 +848,9 @@
       "tcpPort": 32110,
       "keyType": 0,
       "firstSeen": "2026-06-04T00:38:04.546397143Z",
-      "lastSuccess": "2026-10-19T02:43:28.942702459Z",
-      "lastAttempt": "2026-10-19T02:43:24.652735743Z",
-      "successCount": 11140,
+      "lastSuccess": "2026-10-19T03:18:31.711030925Z",
+      "lastAttempt": "2026-10-19T03:18:28.491136264Z",
+      "successCount": 11142,
       "failCount": 540,
       "capabilities": [
         "parallax/66",
@@ -859,28 +859,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.419926656221866,
-        "reliability": 0.999999892484684
+        "count": 7.419664989641141,
+        "reliability": 0.9999999197269832
       },
       "stat8h": {
         "weight": 0.9999999999999988,
-        "count": 27.941656077588988,
-        "reliability": 0.9940809747097529
+        "count": 27.94178244161118,
+        "reliability": 0.9944979439813357
       },
       "stat1d": {
         "weight": 0.9999999999999961,
-        "count": 82.68210036535007,
-        "reliability": 0.9692259577706022
+        "count": 82.68249240357464,
+        "reliability": 0.9699662554341381
       },
       "stat1w": {
-        "weight": 0.9999136730044658,
-        "count": 575.30941986261,
-        "reliability": 0.9856230228781732
+        "weight": 0.9999139727771654,
+        "count": 575.3101198746436,
+        "reliability": 0.9856729472988883
       },
       "stat1m": {
-        "weight": 0.8873405708976024,
-        "count": 2186.7325061387614,
-        "reliability": 0.883463756729811
+        "weight": 0.8874319756312926,
+        "count": 2186.957974072834,
+        "reliability": 0.8835583068652612
       }
     },
     {
@@ -890,9 +890,9 @@
       "tcpPort": 32110,
       "keyType": 0,
       "firstSeen": "2026-06-04T00:38:02.867203089Z",
-      "lastSuccess": "2026-10-19T02:43:27.133859196Z",
-      "lastAttempt": "2026-10-19T02:43:25.417007241Z",
-      "successCount": 11161,
+      "lastSuccess": "2026-10-19T03:18:29.800372137Z",
+      "lastAttempt": "2026-10-19T03:18:28.490750299Z",
+      "successCount": 11163,
       "failCount": 519,
       "capabilities": [
         "parallax/66",
@@ -901,28 +901,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.419626396875426,
-        "reliability": 0.9999997414177109
+        "count": 7.4205542971998755,
+        "reliability": 0.9999998069169512
       },
       "stat8h": {
         "weight": 0.9999999999999988,
-        "count": 27.94080139047007,
-        "reliability": 0.998368929415681
+        "count": 27.94182204300181,
+        "reliability": 0.9984837909013802
       },
       "stat1d": {
         "weight": 0.9999999999999961,
-        "count": 82.68137991780004,
-        "reliability": 0.9932527472303548
+        "count": 82.68255263241555,
+        "reliability": 0.9934150002734875
       },
       "stat1w": {
-        "weight": 0.999913673085321,
-        "count": 575.3086957836321,
-        "reliability": 0.9967140675686972
+        "weight": 0.9999139727489744,
+        "count": 575.3101302485824,
+        "reliability": 0.9967254739130671
       },
       "stat1m": {
-        "weight": 0.8873405955184851,
-        "count": 2186.7318620515475,
-        "reliability": 0.8864646886244048
+        "weight": 0.8874319670238774,
+        "count": 2186.957976742407,
+        "reliability": 0.8865567705270502
       }
     },
     {
@@ -932,35 +932,35 @@
       "tcpPort": 32110,
       "keyType": 1,
       "nodeId": "cf7ea2a01580f6a17f6acb502590f8cc8d8f41b8e8c47e9b180cc8a75c9e6e49bb3b26130aaedb1d951cfbb774c7cde647a22d26854082e32ede0a5e1f6a5966",
-      "firstSeen": "2026-10-19T02:08:22.490045246Z",
+      "firstSeen": "2026-10-19T03:18:31.13904772Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.652587048Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:31.13904772Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "dial: dial tcp 80.30.35.88:32110: connect: no route to host",
       "stat2h": {
-        "weight": 0.3500474433884474,
-        "count": 2.626596414747674,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10211562484222542,
-        "count": 2.8981012813652813,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.03526773240928002,
-        "count": 2.965348340557898,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.005116104932924619,
-        "count": 2.9950069093665537,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011961060625114055,
-        "count": 2.9988336587236595,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -971,9 +971,9 @@
       "tcpPort": 32110,
       "keyType": 0,
       "firstSeen": "2026-10-13T07:35:53.21549623Z",
-      "lastSuccess": "2026-10-19T02:43:25.416917952Z",
-      "lastAttempt": "2026-10-19T02:43:24.653065076Z",
-      "successCount": 477,
+      "lastSuccess": "2026-10-19T03:18:31.187554295Z",
+      "lastAttempt": "2026-10-19T03:18:28.490986371Z",
+      "successCount": 479,
       "capabilities": [
         "parallax/66",
         "parallax-disc/1",
@@ -981,28 +981,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.420642172667967,
+        "count": 7.42142238041145,
         "reliability": 0.9999999999999997
       },
       "stat8h": {
-        "weight": 0.9999999729450847,
-        "count": 27.941365469264124,
-        "reliability": 0.9999999729450847
+        "weight": 0.9999999748509839,
+        "count": 27.941849079471275,
+        "reliability": 0.9999999748509839
       },
       "stat1d": {
-        "weight": 0.9969979674788185,
-        "count": 82.43382665445559,
-        "reliability": 0.9969979674788185
+        "weight": 0.9970701840938679,
+        "count": 82.44030610879186,
+        "reliability": 0.9970701840938679
       },
       "stat1w": {
-        "weight": 0.5638551282176579,
-        "count": 324.44001419660765,
-        "reliability": 0.5638551282176579
+        "weight": 0.5653696520939837,
+        "count": 325.3118814008382,
+        "reliability": 0.5653696520939837
       },
       "stat1m": {
-        "weight": 0.17602535794826624,
-        "count": 433.7596153222806,
-        "reliability": 0.17602535794826624
+        "weight": 0.17669387869415923,
+        "count": 435.40733849984366,
+        "reliability": 0.17669387869415923
       }
     },
     {
@@ -1012,35 +1012,35 @@
       "tcpPort": 32110,
       "keyType": 1,
       "nodeId": "4c82f1fd10210ec4e2ba836e39b3de12ae0a7f0c34400e1136498c6456d95232d0a320d13f4f77aa850d74cb54ed590df9c8fa67b1de488a364c635db167ca01",
-      "firstSeen": "2026-10-19T02:08:22.773638034Z",
+      "firstSeen": "2026-10-19T03:18:31.13816008Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.652630954Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:31.13816008Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "dial: dial tcp 82.32.90.35:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.3500218465942976,
-        "count": 2.626625826929815,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10210678472694608,
-        "count": 2.898110434248715,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.035264566331068316,
-        "count": 2.9653515436393394,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.005115638500660179,
-        "count": 2.9950073765917113,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011959967995120871,
-        "count": 2.9988337680337356,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -1051,35 +1051,35 @@
       "tcpPort": 32110,
       "keyType": 1,
       "nodeId": "88c907768ac01fdc9350df4e51d3dc9846c67c01274b95fcd3f439c41244e6402bdbd0546acf07719cc239dc98fdf729f8ef241014a8a83d3ef19562f4b6f49b",
-      "firstSeen": "2026-10-19T02:08:30.825189382Z",
+      "firstSeen": "2026-10-19T03:18:31.711147801Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:24.652310089Z",
-      "failCount": 3,
-      "failStreak": 3,
+      "lastAttempt": "2026-10-19T03:18:31.711147801Z",
+      "failCount": 1,
+      "failStreak": 1,
       "lastError": "dial: dial tcp 83.217.162.68:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.34929455929763353,
-        "count": 2.627461533731725,
+        "weight": 0.1296752741666094,
+        "count": 1,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.10185571763616638,
-        "count": 2.898370387554173,
+        "weight": 0.034126322758950334,
+        "count": 1,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.03517465558505504,
-        "count": 2.9654425063402106,
+        "weight": 0.011507352141687077,
+        "count": 1,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.005102393237553793,
-        "count": 2.9950206445337715,
+        "weight": 0.0016520729759895714,
+        "count": 1,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.0011928940777730162,
-        "count": 2.9988368721304246,
+        "weight": 0.00038572805693293244,
+        "count": 1,
         "reliability": 0
       }
     },
@@ -1090,9 +1090,9 @@
       "tcpPort": 31303,
       "keyType": 0,
       "firstSeen": "2026-10-14T11:04:35.289711617Z",
-      "lastSuccess": "2026-10-19T02:43:27.98993819Z",
-      "lastAttempt": "2026-10-19T02:43:24.848284013Z",
-      "successCount": 378,
+      "lastSuccess": "2026-10-19T03:18:31.138039914Z",
+      "lastAttempt": "2026-10-19T03:18:28.490574396Z",
+      "successCount": 380,
       "failCount": 5,
       "capabilities": [
         "parallax/66",
@@ -1101,28 +1101,28 @@
       ],
       "stat2h": {
         "weight": 0.9999999999999997,
-        "count": 7.418771022236743,
-        "reliability": 0.9999999999999994
+        "count": 7.419782846766536,
+        "reliability": 0.9999999999999996
       },
       "stat8h": {
-        "weight": 0.9999991606261779,
-        "count": 27.940778595078253,
-        "reliability": 0.999989338651937
+        "weight": 0.9999992197510551,
+        "count": 27.941371913672207,
+        "reliability": 0.9999900896294852
       },
       "stat1d": {
-        "weight": 0.9905669571579965,
-        "count": 81.902338436228,
-        "reliability": 0.9891580025171308
+        "weight": 0.9907938567140924,
+        "count": 81.9217475182867,
+        "reliability": 0.9894187926415117
       },
       "stat1w": {
-        "weight": 0.48635325083433767,
-        "count": 279.8592261667773,
-        "reliability": 0.48174647835168993
+        "weight": 0.4881367363314345,
+        "count": 280.885986168772,
+        "reliability": 0.4835459594954536
       },
       "stat1m": {
-        "weight": 0.14397116579344219,
-        "count": 354.79256899931664,
-        "reliability": 0.1423075802975261
+        "weight": 0.1446656287208559,
+        "count": 356.50438654533036,
+        "reliability": 0.14300339282720476
       }
     },
     {
@@ -1134,33 +1134,33 @@
       "nodeId": "143bfda9c5564f9740685ac9c936c3012f98cf5f64147545d8ad77755e5a50ad7123a67274c020b62e99613f9a34235d4594b6d9be703d2479c8affc19530b19",
       "firstSeen": "2026-10-19T02:43:27.133975505Z",
       "lastSuccess": "0001-01-01T00:00:00Z",
-      "lastAttempt": "2026-10-19T02:43:27.133975505Z",
-      "failCount": 1,
-      "failStreak": 1,
+      "lastAttempt": "2026-10-19T03:18:28.491135247Z",
+      "failCount": 3,
+      "failStreak": 3,
       "lastError": "dial: dial tcp 95.71.39.34:32110: i/o timeout",
       "stat2h": {
-        "weight": 0.1296752741666094,
-        "count": 1,
+        "weight": 0.34997473652494726,
+        "count": 2.626680787368851,
         "reliability": 0
       },
       "stat8h": {
-        "weight": 0.034126322758950334,
-        "count": 1,
+        "weight": 0.10209051546398422,
+        "count": 2.898127507068802,
         "reliability": 0
       },
       "stat1d": {
-        "weight": 0.011507352141687077,
-        "count": 1,
+        "weight": 0.03525873956555567,
+        "count": 2.9653575161242123,
         "reliability": 0
       },
       "stat1w": {
-        "weight": 0.0016520729759895714,
-        "count": 1,
+        "weight": 0.005114780094646921,
+        "count": 2.995008247647344,
         "reliability": 0
       },
       "stat1m": {
-        "weight": 0.00038572805693293244,
-        "count": 1,
+        "weight": 0.0011957957157217346,
+        "count": 2.9988339718183123,
         "reliability": 0
       }
     }
